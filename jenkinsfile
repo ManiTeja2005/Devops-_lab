@@ -15,7 +15,6 @@ pipeline {
           }
       }
    }
-}
  post {
      success {
             publishHTML(target:[
@@ -27,3 +26,5 @@ pipeline {
                    ])
       }
    }
+ }
+
